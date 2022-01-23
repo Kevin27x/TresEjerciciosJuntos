@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: radial-gradient(circle, rgba(109, 94, 245, 0.5) 0%, rgba(17, 102, 102, 0.5) 100%),url(../img/webb.png);
+    height: 100vh;
+}
+.container {
+    outline: 1px solid black;
+    background-color: #ddd;
+    padding: 1px;
+    display: block;
+    margin: 5vh auto;
+    width: 400px;
+    height: 600px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px #ddd;
+    
+}
+#cajaGrande{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.div__color {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    box-shadow: 0 0 10px #ddd;
+    
+}
+.div__color:nth-child(1) {
+    background-color: rgb(174, 201, 25);
+
+    border-top-left-radius: 15px;
+
+}
+.div__color:nth-child(2) {
+    background-color: rgb(45, 101, 185);
+}
+.div__color:nth-child(3) {
+    background-color: rgb(200, 47, 214);
+}
+.div__color:nth-child(4) {
+    background-color: rgb(248, 39, 39);
+}
+.div__color:nth-child(5) {
+    background-color: rgb(51, 49, 49);
+}
+.div__color:nth-child(6) {
+    background-color: rgb(26, 182, 130);
+    border-bottom-left-radius: 15px;
+}
+
+.div__color:hover{
+    transform: scale(1.1);
+    transition: scale 0.1s;
+    
+}
+

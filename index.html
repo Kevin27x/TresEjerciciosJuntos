@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" id="formulario" >
+            <h2 class="form__title">Escríbenos ahora!</h2>
+            <div class="form__div">
+            <label for="nombre" class="form__label">Nombre Completo: </label>
+            <input type="text" id="nombre" class="form__input">
+            <section class="errorNombre form__section" ></section>
+            </div>
+
+            <div class="form__div">
+            <label for="asunto" class="form__label">Asunto: </label>
+            <input type="text" id="asunto" class="form__input">
+            <section class="errorAsunto form__section" ></section>
+            </div>
+
+            <div class="form__div">
+            <label for="mensaje" class="form__label">Mensaje: </label>
+            <textarea type="text" id="mensaje" class="form__input form__input--area"></textarea>
+            <section class="errorMensaje form__section"></section>
+            </div>
+            <div class="form__botones">
+            <button type="submit" class="form__cta">Enviar Ahora</button>
+            <button type="reset" class="form__cta limpiar">Limpiar</button>
+            </div>
+            <p class="resultado form__section" ></p>
+        </form>
+    </div>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>

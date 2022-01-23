@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 400px;    
+    margin: 5vh auto 0;
+    
+    
+}
+#formulario {
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 140, 0, 0.514);
+    padding: 25px;
+    box-shadow: 0 0 15px #00000040;
+  
+}
+
+.form__title::after{
+    content:"";
+    display: block;
+    width: 30%;
+    height: 4px;
+    background-color: rgb(84, 155, 214);
+    margin: 1vh 0 3vh;
+}
+.form__label {
+    font-size: 1.2rem;
+    margin-top: 5vh;
+   
+}
+
+.form__input{
+    width: 100%;
+    outline: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: 1vh 0 0.5vh;
+    border: 1px solid rgb(77, 72, 72);
+    font-family: inherit;
+    font-size: 1rem;
+}
+.form__input--area {
+    height: 20vh;
+    resize: none;
+    
+}
+
+.form__botones {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.form__cta{
+    background-color: rgb(84, 155, 214);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 46%;
+    border: none;
+    box-shadow: 0 0 15px #00000040;
+
+
+}
+
+.form__section{
+    height: 1rem;
+    width: 100%;
+    margin-bottom: 2.5vh;
+    color: rgb(196, 7, 7);
+    font-size: 0.9rem;
+}
+.resultado {
+    text-align: center;
+    margin: 2.5vh 0 0;
+    font-size: 1.2rem;
+
+}
